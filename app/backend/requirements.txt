@@ -117,11 +117,11 @@ h11==0.16.0
     #   hypercorn
     #   uvicorn
     #   wsproto
-h2==4.1.0
+h2==4.3.0
     # via
     #   httpx
     #   hypercorn
-hpack==4.0.0
+hpack==4.1.0
     # via h2
 httpcore==1.0.9
     # via httpx
@@ -132,7 +132,7 @@ httpx[http2]==0.27.0
     #   openai
 hypercorn==0.17.3
     # via quart
-hyperframe==6.0.1
+hyperframe==6.1.0
     # via h2
 idna==3.10
     # via
@@ -352,7 +352,7 @@ pyjwt[crypto]==2.10.1
     #   msal
 pymupdf==1.26.0
     # via -r requirements.in
-pypdf==4.3.1
+pypdf==6.0.0
     # via -r requirements.in
 python-dotenv==1.1.1
     # via
